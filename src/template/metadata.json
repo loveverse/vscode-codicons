@@ -589,6 +589,11 @@
     "category": "file",
     "description": "New folder"
   },
+  "new-session": {
+    "tags": ["create", "add", "session", "compose", "edit", "chat", "start"],
+    "category": "action",
+    "description": "Start a new session"
+  },
   "note": {
     "tags": ["document", "memo", "text", "write"],
     "category": "content",
