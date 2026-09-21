@@ -72,8 +72,8 @@ Object.entries(mapping).forEach(([code, aliases]) => {
   );
 
   if (!sourceAlias) {
-    console.warn(`Warning: no SVG file found for code ${code} (aliases: ${aliases.join(", ")})`);
-    return;
+    console.error(`Error: no SVG file found for code ${code} (aliases: ${aliases.join(", ")})`);
+    process.exit(1);
   }
 
   // Skip if we've already processed this icon
