@@ -82,18 +82,6 @@
     "category": "ai",
     "description": "AI agent or bot (compact 12x12 variant)"
   },
-  "alert": {
-    "tags": [
-      "warning",
-      "error",
-      "danger",
-      "notification",
-      "triangle",
-      "exclamation"
-    ],
-    "category": "status",
-    "description": "Alert or warning"
-  },
   "archive": {
     "tags": [
       "save",
@@ -105,17 +93,6 @@
     ],
     "category": "file",
     "description": "Archive or package items"
-  },
-  "array": {
-    "tags": [
-      "list",
-      "collection",
-      "brackets",
-      "data",
-      "structure"
-    ],
-    "category": "symbol",
-    "description": "Array data structure"
   },
   "arrow-both": {
     "tags": [
@@ -277,6 +254,17 @@
     ],
     "category": "navigation",
     "description": "Arrow pointing up"
+  },
+  "arrow-up-compact": {
+    "tags": [
+      "arrow",
+      "up",
+      "direction",
+      "point",
+      "compact"
+    ],
+    "category": "navigation",
+    "description": "Arrow pointing up (compact 12x12 variant)"
   },
   "ask": {
     "tags": [
@@ -910,6 +898,17 @@
     "category": "window",
     "description": "Restore window button"
   },
+  "circle": {
+    "tags": [
+      "round",
+      "shape",
+      "empty",
+      "ring",
+      "hollow"
+    ],
+    "category": "shape",
+    "description": "Circle outline shape"
+  },
   "circle-filled": {
     "tags": [
       "dot",
@@ -954,17 +953,6 @@
     ],
     "category": "shape",
     "description": "Large filled circle"
-  },
-  "circle-outline": {
-    "tags": [
-      "round",
-      "shape",
-      "empty",
-      "ring",
-      "hollow"
-    ],
-    "category": "shape",
-    "description": "Circle outline shape"
   },
   "circle-slash": {
     "tags": [
@@ -1086,17 +1074,6 @@
     "category": "general",
     "description": "Clock face showing time"
   },
-  "clone": {
-    "tags": [
-      "copy",
-      "duplicate",
-      "replicate",
-      "git",
-      "repo"
-    ],
-    "category": "action",
-    "description": "Clone or duplicate"
-  },
   "close": {
     "tags": [
       "remove",
@@ -1175,6 +1152,17 @@
     "category": "action",
     "description": "Download from cloud"
   },
+  "cloud-download-compact": {
+    "tags": [
+      "cloud",
+      "download",
+      "arrow",
+      "save",
+      "compact"
+    ],
+    "category": "cloud",
+    "description": "Cloud download (compact 12x12 variant)"
+  },
   "cloud-small": {
     "tags": [
       "online",
@@ -1195,6 +1183,17 @@
     ],
     "category": "action",
     "description": "Upload to cloud"
+  },
+  "cloud-upload-compact": {
+    "tags": [
+      "cloud",
+      "upload",
+      "arrow",
+      "send",
+      "compact"
+    ],
+    "category": "cloud",
+    "description": "Cloud upload (compact 12x12 variant)"
   },
   "code": {
     "tags": [
@@ -2097,6 +2096,17 @@
     "category": "debug",
     "description": "Stop debugging"
   },
+  "desktop-download": {
+    "tags": [
+      "copy",
+      "duplicate",
+      "replicate",
+      "git",
+      "repo"
+    ],
+    "category": "action",
+    "description": "Clone or duplicate"
+  },
   "developer-tools": {
     "tags": [
       "developer",
@@ -2324,6 +2334,17 @@
     ],
     "category": "layout",
     "description": "Editor layout"
+  },
+  "ellipsis": {
+    "tags": [
+      "ellipsis",
+      "menu",
+      "options",
+      "actions",
+      "dots"
+    ],
+    "category": "navigation",
+    "description": "More options"
   },
   "empty-window": {
     "tags": [
@@ -2989,31 +3010,6 @@
     "category": "git",
     "description": "GitHub Gist"
   },
-  "gist-fork": {
-    "tags": [
-      "copy",
-      "branch",
-      "split",
-      "duplicate",
-      "share",
-      "code",
-      "pr"
-    ],
-    "category": "git",
-    "description": "Fork Gist"
-  },
-  "gist-private": {
-    "tags": [
-      "lock",
-      "secret",
-      "hidden",
-      "secure",
-      "code",
-      "pr"
-    ],
-    "category": "git",
-    "description": "Private Gist"
-  },
   "gist-secret": {
     "tags": [
       "lock",
@@ -3276,6 +3272,17 @@
     "category": "git",
     "description": "Pop git stash"
   },
+  "github": {
+    "tags": [
+      "brand",
+      "cat",
+      "octocat",
+      "git",
+      "social"
+    ],
+    "category": "brand",
+    "description": "GitHub logo"
+  },
   "github-action": {
     "tags": [
       "ci",
@@ -3341,6 +3348,17 @@
     ],
     "category": "action",
     "description": "Go to editing session"
+  },
+  "go-to-file": {
+    "tags": [
+      "code",
+      "link",
+      "pointer",
+      "alias",
+      "use"
+    ],
+    "category": "symbol",
+    "description": "Reference symbol"
   },
   "go-to-search": {
     "tags": [
@@ -4250,6 +4268,18 @@
     "category": "general",
     "description": "Location or place"
   },
+  "lock": {
+    "tags": [
+      "lock",
+      "secret",
+      "hidden",
+      "secure",
+      "code",
+      "pr"
+    ],
+    "category": "git",
+    "description": "Private Gist"
+  },
   "lock-small": {
     "tags": [
       "secure",
@@ -4261,39 +4291,6 @@
     ],
     "category": "security",
     "description": "Small lock"
-  },
-  "log-in": {
-    "tags": [
-      "sign in",
-      "enter",
-      "access",
-      "auth",
-      "arrow"
-    ],
-    "category": "user",
-    "description": "Log in"
-  },
-  "log-out": {
-    "tags": [
-      "sign out",
-      "exit",
-      "leave",
-      "disconnect",
-      "arrow"
-    ],
-    "category": "user",
-    "description": "Log out"
-  },
-  "logo-github": {
-    "tags": [
-      "brand",
-      "cat",
-      "octocat",
-      "git",
-      "social"
-    ],
-    "category": "brand",
-    "description": "GitHub logo"
   },
   "magnet": {
     "tags": [
@@ -4326,17 +4323,6 @@
     ],
     "category": "communication",
     "description": "Read mail"
-  },
-  "mail-reply": {
-    "tags": [
-      "email",
-      "respond",
-      "answer",
-      "back",
-      "arrow"
-    ],
-    "category": "communication",
-    "description": "Reply to mail"
   },
   "map": {
     "tags": [
@@ -4487,6 +4473,18 @@
     "category": "device",
     "description": "Microphone or audio"
   },
+  "mic-compact": {
+    "tags": [
+      "microphone",
+      "audio",
+      "sound",
+      "voice",
+      "record",
+      "compact"
+    ],
+    "category": "media",
+    "description": "Microphone (compact 12x12 variant)"
+  },
   "mic-download": {
     "tags": [
       "microphone",
@@ -4590,17 +4588,6 @@
     ],
     "category": "action",
     "description": "Mirror or reflect"
-  },
-  "more": {
-    "tags": [
-      "ellipsis",
-      "menu",
-      "options",
-      "actions",
-      "dots"
-    ],
-    "category": "navigation",
-    "description": "More options"
   },
   "mortar-board": {
     "tags": [
@@ -5376,6 +5363,17 @@
     "category": "action",
     "description": "Replace all"
   },
+  "reply": {
+    "tags": [
+      "email",
+      "respond",
+      "answer",
+      "back",
+      "arrow"
+    ],
+    "category": "communication",
+    "description": "Reply to mail"
+  },
   "repo": {
     "tags": [
       "repository",
@@ -5429,6 +5427,19 @@
     ],
     "category": "git",
     "description": "Force push repository"
+  },
+  "repo-forked": {
+    "tags": [
+      "copy",
+      "branch",
+      "split",
+      "duplicate",
+      "share",
+      "code",
+      "pr"
+    ],
+    "category": "git",
+    "description": "Fork Gist"
   },
   "repo-forked-compact": {
     "tags": [
@@ -5485,17 +5496,6 @@
     ],
     "category": "git",
     "description": "Selected repository"
-  },
-  "repo-sync": {
-    "tags": [
-      "git",
-      "refresh",
-      "update",
-      "cycle",
-      "arrows"
-    ],
-    "category": "git",
-    "description": "Sync repository"
   },
   "report": {
     "tags": [
@@ -5999,6 +5999,28 @@
     "category": "security",
     "description": "Security or protection (compact variant)"
   },
+  "sign-in": {
+    "tags": [
+      "sign in",
+      "enter",
+      "access",
+      "auth",
+      "arrow"
+    ],
+    "category": "user",
+    "description": "Log in"
+  },
+  "sign-out": {
+    "tags": [
+      "sign out",
+      "exit",
+      "leave",
+      "disconnect",
+      "arrow"
+    ],
+    "category": "user",
+    "description": "Log out"
+  },
   "skip": {
     "tags": [
       "next",
@@ -6118,7 +6140,7 @@
     "category": "general",
     "description": "Squirrel"
   },
-  "star": {
+  "star-empty": {
     "tags": [
       "favorite",
       "bookmark",
@@ -6182,6 +6204,17 @@
     ],
     "category": "development",
     "description": "Surround with"
+  },
+  "symbol-array": {
+    "tags": [
+      "list",
+      "collection",
+      "brackets",
+      "data",
+      "structure"
+    ],
+    "category": "symbol",
+    "description": "Array data structure"
   },
   "symbol-boolean": {
     "tags": [
@@ -6259,6 +6292,17 @@
     ],
     "category": "symbol",
     "description": "Enum member symbol"
+  },
+  "symbol-event": {
+    "tags": [
+      "flash",
+      "electric",
+      "power",
+      "energy",
+      "fast"
+    ],
+    "category": "general",
+    "description": "Zap or flash"
   },
   "symbol-field": {
     "tags": [
@@ -6347,7 +6391,7 @@
     "category": "symbol",
     "description": "Miscellaneous symbol"
   },
-  "symbol-module": {
+  "symbol-namespace": {
     "tags": [
       "code",
       "package",
@@ -6402,17 +6446,6 @@
     "category": "symbol",
     "description": "Property symbol"
   },
-  "symbol-reference": {
-    "tags": [
-      "code",
-      "link",
-      "pointer",
-      "alias",
-      "use"
-    ],
-    "category": "symbol",
-    "description": "Reference symbol"
-  },
   "symbol-ruler": {
     "tags": [
       "code",
@@ -6456,6 +6489,28 @@
     ],
     "category": "symbol",
     "description": "Structure symbol"
+  },
+  "symbol-variable": {
+    "tags": [
+      "code",
+      "value",
+      "store",
+      "data",
+      "box"
+    ],
+    "category": "symbol",
+    "description": "Variable"
+  },
+  "sync": {
+    "tags": [
+      "git",
+      "refresh",
+      "update",
+      "cycle",
+      "arrows"
+    ],
+    "category": "git",
+    "description": "Sync repository"
   },
   "sync-compact": {
     "tags": [
@@ -6918,17 +6973,6 @@
     "category": "status",
     "description": "Unverified"
   },
-  "variable": {
-    "tags": [
-      "code",
-      "value",
-      "store",
-      "data",
-      "box"
-    ],
-    "category": "symbol",
-    "description": "Variable"
-  },
   "variable-group": {
     "tags": [
       "code",
@@ -7062,6 +7106,57 @@
     "category": "device",
     "description": "Small VM icon"
   },
+  "voice-mode": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "microphone",
+      "speech"
+    ],
+    "category": "media",
+    "description": "Voice mode waveform indicator"
+  },
+  "voice-mode-compact": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "microphone",
+      "speech",
+      "compact"
+    ],
+    "category": "media",
+    "description": "Compact voice mode waveform indicator"
+  },
+  "voice-mode-download": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "download",
+      "save",
+      "arrow"
+    ],
+    "category": "media",
+    "description": "Voice mode waveform with download indicator"
+  },
+  "voice-mode-download-compact": {
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "download",
+      "save",
+      "compact"
+    ],
+    "category": "media",
+    "description": "Compact voice mode waveform with download indicator"
+  },
   "vr": {
     "tags": [
       "virtual",
@@ -7129,6 +7224,18 @@
     ],
     "category": "tool",
     "description": "Magic wand"
+  },
+  "warning": {
+    "tags": [
+      "warning",
+      "error",
+      "danger",
+      "notification",
+      "triangle",
+      "exclamation"
+    ],
+    "category": "status",
+    "description": "Alert or warning"
   },
   "warning-compact": {
     "tags": [
@@ -7287,16 +7394,18 @@
     "category": "git",
     "description": "Git worktree (small variant)"
   },
-  "zap": {
+  "xai": {
     "tags": [
-      "flash",
-      "electric",
-      "power",
-      "energy",
-      "fast"
+      "xai",
+      "grok",
+      "ai",
+      "logo",
+      "model",
+      "assistant",
+      "brand"
     ],
-    "category": "general",
-    "description": "Zap or flash"
+    "category": "brand",
+    "description": "xAI logo"
   },
   "zoom-in": {
     "tags": [
@@ -7317,114 +7426,5 @@
     ],
     "category": "action",
     "description": "Zoom out or reduce"
-  },
-  "voice-mode": {
-    "tags": [
-      "voice",
-      "audio",
-      "waveform",
-      "sound",
-      "microphone",
-      "speech"
-    ],
-    "category": "media",
-    "description": "Voice mode waveform indicator"
-  },
-  "voice-mode-compact": {
-    "tags": [
-      "voice",
-      "audio",
-      "waveform",
-      "sound",
-      "microphone",
-      "speech",
-      "compact"
-    ],
-    "category": "media",
-    "description": "Compact voice mode waveform indicator"
-  },
-  "voice-mode-download": {
-    "tags": [
-      "voice",
-      "audio",
-      "waveform",
-      "sound",
-      "download",
-      "save",
-      "arrow"
-    ],
-    "category": "media",
-    "description": "Voice mode waveform with download indicator"
-  },
-  "voice-mode-download-compact": {
-    "tags": [
-      "voice",
-      "audio",
-      "waveform",
-      "sound",
-      "download",
-      "save",
-      "compact"
-    ],
-    "category": "media",
-    "description": "Compact voice mode waveform with download indicator"
-  },
-  "arrow-up-compact": {
-    "tags": [
-      "arrow",
-      "up",
-      "direction",
-      "point",
-      "compact"
-    ],
-    "category": "navigation",
-    "description": "Arrow pointing up (compact 12x12 variant)"
-  },
-  "mic-compact": {
-    "tags": [
-      "microphone",
-      "audio",
-      "sound",
-      "voice",
-      "record",
-      "compact"
-    ],
-    "category": "media",
-    "description": "Microphone (compact 12x12 variant)"
-  },
-  "cloud-download-compact": {
-    "tags": [
-      "cloud",
-      "download",
-      "arrow",
-      "save",
-      "compact"
-    ],
-    "category": "cloud",
-    "description": "Cloud download (compact 12x12 variant)"
-  },
-  "cloud-upload-compact": {
-    "tags": [
-      "cloud",
-      "upload",
-      "arrow",
-      "send",
-      "compact"
-    ],
-    "category": "cloud",
-    "description": "Cloud upload (compact 12x12 variant)"
-  },
-  "xai": {
-    "tags": [
-      "xai",
-      "grok",
-      "ai",
-      "logo",
-      "model",
-      "assistant",
-      "brand"
-    ],
-    "category": "brand",
-    "description": "xAI logo"
   }
 }
